@@ -1,0 +1,118 @@
+/* Cari Mobil */
+.car-card{
+    margin-top: 5rem;
+    max-height: 100%;
+    height: auto;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  
+  .car-icon{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .icon-wrapper{
+    padding-left: 1.5rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .icon-wrapper span{
+    padding-left: 0.5rem;
+  }
+  
+  
+  div.car-card p:not(:first-child){
+    padding-left: 1.5rem;
+  }
+  
+  #choose-car{
+    height: 4rem;
+    width: 90%;
+    
+  }
+  
+  .btn-wrapper{
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+
+  
+  #clear-btn{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  /* gambar mobil */
+
+  .car-card > img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+ /*end gambar mobil */
+
+ /* search-box */
+  .search-box{
+    width: auto;
+    height:auto;
+    top: 45%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding-left: 1.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+  }
+
+
+  
+
+
+
+  .search-container {
+    display: flex;
+  }
+
+  .calender-box {
+    padding-top: 9px;
+  }
+
+  .form-box {
+    margin-top: 1.3rem;
+  }
+
+
+  .footer{
+      margin-top: 5%;
+  }
+
+  
+
+
+
+
+.btn-success {
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+}
+
+#car-capacity {
+  background-image: url(./user.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}

@@ -1,0 +1,379 @@
+/* Header Nav */
+
+nav.navbar {
+  background-color: #f1f3ff;
+}
+
+.navbar-brand {
+  background-color:#0D28A6;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.offcanvas-body ul li a:hover:not(.btn) {
+  color:#0D28A6;
+  border-bottom: 2px solid #0D28A6;
+}
+
+.offcanvas-body ul li a {
+  color: #646464;
+  margin: 0 10px;
+}
+nav.navbar {
+  background-color: #f1f3ff;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.offcanvas-body ul li a {
+  color: #646464;
+  margin: 0 10px;
+}
+.offcanvas-body ul li a:hover:not(.btn) {
+  color: black;
+  border-bottom: 2px solid black;
+}
+/* end of main section */
+
+  /* HERO SECTION */
+  .main-section  {
+    background: #f1f3ff;
+    display: block;
+  }
+ 
+  .col-md-6 h2 {
+    margin-top: 10%;
+  }
+
+  /* OUR SERVICE */
+  
+  .img_service {
+    position: relative;
+    width: 459px;
+    height: 428px;
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  
+  /* desc */
+  .text-services {
+    position: relative;
+  }
+  
+  .frame-105 {
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    
+  }
+  
+  .frame-107 {
+    /* Frame 107 */
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  
+    
+   
+    height: 24px;
+    left: 0px;
+    top: 160px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+  
+  .text-frame {
+    
+
+    /* Body/14/Light */
+  
+    font-family: Helvetica;
+    font-style: normal;
+   
+    font-size: 14px;
+    /* identical to box height, or 143% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+   
+    order: 1;
+  
+    margin: 0px 16px;
+  }
+  
+  .desc-header {
+    margin-top: 25%;
+  
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .desc-description {
+    /* Body/14/Light */
+  
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 143% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+
+  }
+  
+  
+  /* WHY US */
+ 
+
+  
+  .why-us-tittle {
+    margin-top: 100px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  
+  .why-us-caption {
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  
+  .why-us {
+    margin-left: 1px;
+    /* column-gap: 0.5em; */
+  }
+  
+  .card-why-us {
+    border: 1px solid #d0d0d0;
+    padding: 20px;
+    /* margin-right: 10px; */
+  }
+  
+  /*Testimonial */
+
+  .testi0 {
+  text-align: center;
+  }
+
+  .thumbnail img {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .star img{
+    width: 120px;
+    height: 30px;
+  }
+  .testi .thumbnail {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  .testi .thumbnail img{
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 768px) {
+    .testi .wrapper {
+      flex-direction: row;
+      padding: 30px 100px;
+    }
+    
+  }
+
+  .contrainer {
+    background: #f1f3ff;
+    border-radius: 13px;
+  }
+
+  /* CTA BANNER */
+  .cta-banner {
+    position: absolute;
+    width: 1115px;
+    height: 326px;
+    left: 85px;
+    top: 1720px;
+  }
+  
+  .banner .container {
+    background-color:#0D28A6;
+    border-radius: 13px;
+    color: white;
+    width: 100%;
+    margin-top: 5%;
+}
+  
+  .btn-cta {
+    /* Auto layout */
+      display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+  
+    position: absolute;
+    width: auto;
+    height: 36px;
+    left: 480px;
+    top: 220px;
+  
+    /* Primary/LimeGreen/04 */
+  
+    background: #5cb85f;
+    border-radius: 2px;
+  }
+  
+  .cta-judul {
+    position: absolute;
+    width: 613px;
+    height: 54px;
+    /* left: 306px; */
+    left: 236px;
+    top: 80px;
+  
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+  
+    text-align: center;
+  
+    /* Neutral/01 */
+  
+    color: #ffffff;
+  }
+  
+  .cta-des {
+    position: absolute;
+    width: 468px;
+    height: 40px;
+    left: 308px;
+    top: 140px;
+  
+    /* Body/14/Light */
+  
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+  
+    text-align: center;
+  
+    /* Neutral/01 */
+  
+    color: #ffffff;
+  }
+  
+  /* FAQ */
+
+.cursor-pointer {
+  cursor: pointer;
+  color: black;
+}
+
+.footer .bi {
+  background-color: #0D28A6;
+  margin-right: 16px;
+  border-radius: 15px;
+  padding: 5px 7px;
+  font-size: 18px;
+  color: white;
+  border: 1px solid #0D28A6;
+}
+
+.footer .col-md-2 a {
+  color: black;
+}
+
+.footer .col-md-2 a:hover {
+  color: #0D28A6;
+}
+
+.footer .bi:hover {
+  background-color: white;
+  border: 1px solid #0D28A6;
+  color: #0D28A6;
+  transition: .5s ease;
+}
+
+
+  /* FOOTER */
+  .d-flex img{
+    margin-right: 5%
+  }
+
+  .rectangle-cr {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 883px;
+    top: 36px;
+  
+    background: #0D28A6;
+
+  }
+
+ /* CSS untuk Footer */
+
+ .translate-middle.start-50 {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* Atur tinggi sesuai kebutuhan */
+}
+
+
+
+
+
+
+  @media (min-width: 390px){
+
+  }
+
+
+  
+
+
+
+

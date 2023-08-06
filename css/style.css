@@ -1,0 +1,66 @@
+.navbar-brand{
+    background: blue;
+}
+.teks {
+    margin-left: 100px;
+    margin-bottom:-350px;
+    margin-top: 250px;;
+
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .container-fluid{
+    background: #F1F3FF;
+  }
+  .nav-item {
+    margin-right: 60px;
+  }
+  .img{
+margin-left:900px;
+  }
+  .bg{
+    background: #F1F3FF;
+  }
+  .navbar-nav{
+    padding: 0;
+    margin: 0;
+  }
+  .carousel-item .card {
+    background-color: #F1F3FF;
+    border: none;
+  }
+  .img_service{
+    margin-left: 385px;
+    margin-top: -90px;
+  }
+  .banner-py5{
+    border-radius: 13px;
+    background: var(--primary-dark-blue-04, #0D28A6);
+    color: white;
+    width: 1000px;
+    margin-left: 300px;
+  }
+  .dropdown-toggle{
+    width: 70%;
+  }
+  .dropdown-item{
+    width: 70%;
+  }
+  .footer{
+    margin-left: 170px;
+  }
+  .shortcut{
+    margin-left:600px;
+    margin-top:-130px;
+  }
+  .contact-us{
+    margin-left: 850px;
+    margin-top: -150px;
+  }
+  .copyright{
+    margin-left: 1100px;
+    margin-top: -80px;
+  }
